@@ -1,1 +1,10 @@
-blah blah
+blah blah#include<stdio.h>
+void main()
+{
+    int a=5,mul=1,table;
+    while(mul<=10){
+        table=a*mul;
+        printf("%d*%d=%d\n",a,mul,table);
+        mul++;
+    }
+}
